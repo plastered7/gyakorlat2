@@ -14,5 +14,5 @@ sudo chown -R www-data:www-data /var/www/html/wordpress
 sudo chmod -R 755 /var/www/html/wordpress
 sudo mkdir -p /var/www/html/wordpress/wp-content/uploads
 sudo chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads 
+sudo apt-get install php-mysql php-gd -y
 sudo service apache2 restart
-sudo apt-get install php7.0-mysql
